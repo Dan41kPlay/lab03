@@ -10,6 +10,5 @@ target_include_directories(formatter_ex PRIVATE ${CMAKE_CURRENT_SOURCE_DIR} ${CM
 # building formatter separately
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../formatter_lib ${CMAKE_CURRENT_BINARY_DIR}/formatter_lib)
 
-
 # linking with formatter
 target_link_libraries(formatter_ex PUBLIC formatter)
