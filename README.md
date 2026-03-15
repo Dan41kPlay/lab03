@@ -10,7 +10,7 @@
 Создайте `CMakeList.txt` в директории [formatter_lib](formatter_lib),
 с помощью которого можно будет собирать статическую библиотеку *formatter*.
 
-See the file [formatter_lib/CMakreLists.txt](formatter_lib/CMakeLists.txt)
+See the file [formatter_lib/CMakeLists.txt](formatter_lib/CMakeLists.txt)
 
 ### Задание 2
 У компании "Formatter Inc." есть перспективная библиотека,
