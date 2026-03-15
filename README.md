@@ -12,12 +12,39 @@
 
 See the file [formatter_lib/CMakeLists.txt](formatter_lib/CMakeLists.txt)
 
+```bash
+$ cd formatter_lib
+$ cmake -B build .
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/dp/Documents/sem02_TP/lab03/formatter_lib/build
+$ cmake --build build
+[ 50%] Building CXX object CMakeFiles/formatter.dir/formatter.cpp.o
+[100%] Linking CXX static library libformatter.a
+[100%] Built target formatter
+```
+
 ### Задание 2
 У компании "Formatter Inc." есть перспективная библиотека,
 которая является расширением предыдущей библиотеки. Т.к. вы уже овладели
 навыком созданием `CMakeList.txt` для статической библиотеки *formatter*, ваш 
 руководитель поручает заняться созданием `CMakeList.txt` для библиотеки 
 *formatter_ex*, которая в свою очередь использует библиотеку *formatter*.
+
+See the file [formatter_ex_lib/CMakeLists.txt](formatter_ex_lib/CMakeLists.txt)
+
+```bash
+$ cd formmater_ex_lib
+$ cmake -B build .
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/dp/Documents/sem02_TP/lab03/formatter_ex_lib/build
+$ cmake --build build
+[ 50%] Built target formatter
+[ 75%] Building CXX object CMakeFiles/formatter_ex.dir/formatter_ex.cpp.o
+[100%] Linking CXX static library libformatter_ex.a
+[100%] Built target formatter_ex
+```
 
 ### Задание 3
 Конечно же ваша компания предоставляет примеры использования своих библиотек.
