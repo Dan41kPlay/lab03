@@ -106,3 +106,5 @@ $ cmake --build build
 [ 87%] Linking CXX executable solver
 [100%] Built target solver
 ```
+
+> The CMake lab is done! I may rest now :)
