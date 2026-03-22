@@ -5,4 +5,4 @@ project(solver_lib)
 add_library(solver_lib STATIC ${CMAKE_CURRENT_SOURCE_DIR}/solver.cpp)
 
 # let the compiler know where is the .h file
-target_include_directories(solver_lib PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(solver_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

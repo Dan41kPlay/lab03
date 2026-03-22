@@ -5,4 +5,4 @@ project(formatter)
 add_library(formatter STATIC ${CMAKE_CURRENT_SOURCE_DIR}/formatter.cpp)
 
 # let the compiler know where is the .h file
-target_include_directories(formatter PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(formatter PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
