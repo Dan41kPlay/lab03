@@ -1,3 +1,0 @@
-/home/dp/Documents/sem02_TP/lab03/solver_lib/build/CMakeFiles/solver_lib.dir
-/home/dp/Documents/sem02_TP/lab03/solver_lib/build/CMakeFiles/edit_cache.dir
-/home/dp/Documents/sem02_TP/lab03/solver_lib/build/CMakeFiles/rebuild_cache.dir
